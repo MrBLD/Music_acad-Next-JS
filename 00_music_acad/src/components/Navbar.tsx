@@ -13,15 +13,9 @@ function Navbar({ className }: { className?: string }) {
             <Menu setActive={setActive}>
                 <MenuItem setActive={setActive} active={active} item="Portfolio">
                     <div className="flex  flex-col space-y-4 text-sm">
-                        <HoveredLink href={'/'}>
-                            Potraits
-                        </HoveredLink>
-                        <HoveredLink href={'/'}>
-                            Landscapes
-                        </HoveredLink>
-                        <HoveredLink href={'/'}>
-                            Events
-                        </HoveredLink>
+                        <HoveredLink href={'/'}>Potraits</HoveredLink>
+                        <HoveredLink href={'/'}>Landscapes</HoveredLink>
+                        <HoveredLink href={'/'}>Events</HoveredLink>
                     </div>
                 </MenuItem>
                 <MenuItem setActive={setActive} active={active} item="About"></MenuItem>
