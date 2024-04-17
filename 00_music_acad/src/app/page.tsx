@@ -1,6 +1,9 @@
 import Featured from "@/components/Featured";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import TestimonialCards from "@/components/TestimonialCards";
 import Image from "next/image";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       {/* <h1 className="text-2xl text-center">NEXT.js Crash-practice</h1> */}
       <HeroSection/>
       <Featured/>
+      <WhyChooseUs/>
+      <TestimonialCards/>
+      <UpcomingWebinars/>
     </main>
   );
 }
