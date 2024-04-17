@@ -13,7 +13,7 @@ function HeroSection() {
                     className="-top-40 left-0 md:left-60 md:-top-20"
                     fill="white"
                 />
-                <h1 className="text-3xl md:text-5xl md:leading-tight font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-800 mt-20">Enlighten Your Lens: Master Light Photography</h1>
+                <h1 className="text-3xl md:text-5xl md:leading-tight font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-500 mt-20">Enlighten Your Lens: Master Light Photography</h1>
                 <p className="text-xl mt-4 font-normal md:text-lg text-neutral-300 max-w-lg mx-auto">Unveil the secrets of light and shadow in our captivating photography course, where every click ignites a world of visual storytelling. Join us to capture moments that shimmer with brilliance, and let your imagination dance in the luminous artistry of photography.</p>
                 <div className="mt-4">
                     <Button
